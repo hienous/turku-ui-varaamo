@@ -1,0 +1,72 @@
+$turku-blue-light: #5b96b4;
+body {
+
+}
+.app-HomePage {
+    background-image: url("../images/panorama.jpg");
+    .app-HomePageContent__banner__linkWrapper {
+        background-color: lightblue;
+        &:hover {
+            background-color: lightblue;
+        }
+    }
+
+}
+.app-MainNavbar {
+    background-color: $turku-blue-light;
+    color: black;
+    .navbar-nav li a {
+    //    color: black;
+    }
+}
+
+.app-SearchControlsContainer {
+    background-color: #c3ebff;
+}
+.app-SearchPage {
+    background-color: white;
+    .app-MapToggle {
+        background-color: #c3ebff;
+    }
+
+    .app-ResourceCard {
+        background-color:#c3ebff;
+    }
+}
+.app-TopNavbar {
+
+    .turku-logo {
+        background-image: url('../images/HELSINKI_Tunnus_MUSTA.png');
+    }
+}
+.app-ResourceHeader {
+    background-color:#c3ebff ;
+}
+
+footer {
+  //  border-top: 1px solid black;
+  //  box-shadow: 0px -1px 1px 0px rgba(0,0,0,.2);
+    background-color: $turku-blue-light;
+   // color: black;
+    a {
+    //    color: black;
+    }
+    .brand-link img {
+    //    filter: brightness(0);
+    }
+
+    .accessibility-info-link, .feedback-link {
+        color: white;
+    }
+
+    .container > .row {
+        div:nth-child(2){
+            box-shadow: 0px 0px 3px 0px rgba(109,169,199,.9);
+        }
+     //   border: 1px solid black;
+     //   box-shadow: 0px 0px 3px 0px rgba(0,0,0,.2) ;
+    }
+}
+.test-site-message {
+    display: none;
+}
